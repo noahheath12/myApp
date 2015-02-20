@@ -186,5 +186,5 @@ angular.module('starter.controllers', [])
             };
 }])
 
-//.controller('PlaylistCtrl', function($scope, $stateParams) {
-//});
+.controller('PlaylistCtrl', function($scope, $stateParams) {
+});
