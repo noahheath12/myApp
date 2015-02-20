@@ -1,0 +1,14 @@
+<ion-view view-title="Playlists">
+  <ion-nav-buttons side="right">
+      <button class="button" ng-click="doAddNewItem()">
+          New
+      </button>
+  </ion-nav-buttons>
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="item in items">
+        {{item.Category}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
